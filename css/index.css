@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .div1{
+    
+width: 200px;
+height: 200px;
+background-color: rgb(137, 137, 150);
+border: 2px solid blue; 
+}  */
+
+/* .tit{
+    opacity: 0; 
+    visibility: hidden;
+     display: none;
+
+} */
+/* .div1:hover .tit{
+
+    opacity: 1; 
+visibility: visible;
+display: block;
+} */
+
+body {
+    height: 4000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/pngtree-background-of-textured-black-stone-rock-image_13754712.png);
+    position: relative;
+}
+
+.home-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+.home-content {
+    width: 70%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-title {
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+
+
+
+}
+
+.home-par {
+    color: rgb(219, 219, 219);
+    margin: 20px 0px;
+    letter-spacing: 1.5px;
+}
+.home-btn {
+    width: 145px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn2 {
+    background-color: blue;
+    color: white;
+}
+
+.home-btn:hover {
+    opacity: 0.7;
+
+}
+
+
+
+
+
+
+
+
